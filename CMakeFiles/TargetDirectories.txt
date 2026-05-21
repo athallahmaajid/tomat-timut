@@ -1,0 +1,9 @@
+/home/athallah/Documents/pomodoro/CMakeFiles/pomodoro.dir
+/home/athallah/Documents/pomodoro/CMakeFiles/edit_cache.dir
+/home/athallah/Documents/pomodoro/CMakeFiles/rebuild_cache.dir
+/home/athallah/Documents/pomodoro/CMakeFiles/list_install_components.dir
+/home/athallah/Documents/pomodoro/CMakeFiles/install.dir
+/home/athallah/Documents/pomodoro/CMakeFiles/install/local.dir
+/home/athallah/Documents/pomodoro/CMakeFiles/install/strip.dir
+/home/athallah/Documents/pomodoro/CMakeFiles/pomodoro_autogen_timestamp_deps.dir
+/home/athallah/Documents/pomodoro/CMakeFiles/pomodoro_autogen.dir

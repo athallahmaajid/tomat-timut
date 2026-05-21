@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/athallah/Documents/pomodoro/MyApp_autogen",
+	"CMAKE_BINARY_DIR" : "/home/athallah/Documents/pomodoro",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/athallah/Documents/pomodoro",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/athallah/Documents/pomodoro",
+	"CMAKE_SOURCE_DIR" : "/home/athallah/Documents/pomodoro",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Unix Makefiles",
+	"INCLUDE_DIR" : "/home/athallah/Documents/pomodoro/MyApp_autogen/include",
+	"INPUTS" : [ "/home/athallah/Documents/pomodoro/assets/flower1.png" ],
+	"LOCK_FILE" : "/home/athallah/Documents/pomodoro/CMakeFiles/MyApp_autogen.dir/AutoRcc_assets_GBFAFXFCVO_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "assets" ],
+	"OUTPUT_CHECKSUM" : "GBFAFXFCVO",
+	"OUTPUT_NAME" : "qrc_assets.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt6/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/athallah/Documents/pomodoro/CMakeFiles/MyApp_autogen.dir/AutoRcc_assets_GBFAFXFCVO_Used.txt",
+	"SOURCE" : "/home/athallah/Documents/pomodoro/assets/assets.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

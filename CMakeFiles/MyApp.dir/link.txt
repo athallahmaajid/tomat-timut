@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/MyApp.dir/link.d CMakeFiles/MyApp.dir/MyApp_autogen/mocs_compilation.cpp.o CMakeFiles/MyApp.dir/main.cpp.o CMakeFiles/MyApp.dir/MyApp_autogen/EWIEGA46WW/qrc_assets.cpp.o -o MyApp  /usr/lib/libQt6Core.so.6.11.0

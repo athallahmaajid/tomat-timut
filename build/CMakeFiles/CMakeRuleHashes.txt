@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+441295308d010d976d75e89193d8c15b CMakeFiles/pomodoro_autogen
+967f9995f9c928b739543ad25af41dce pomodoro_autogen/EWIEGA46WW/qrc_assets.cpp
+db37e9a6a465e09e1067e0af2838b714 pomodoro_autogen/timestamp

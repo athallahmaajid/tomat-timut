@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="flowers">
+    <file>assets/flower7.png</file>
+    <file>assets/flower6.png</file>
+    <file>assets/flower5.png</file>
+    <file>assets/flower4.png</file>
+    <file>assets/flower3.png</file>
+    <file>assets/flower2.png</file>
+    <file>assets/flower1.png</file>
+  </qresource>
+  <qresource prefix="flower2"/>
+</RCC>

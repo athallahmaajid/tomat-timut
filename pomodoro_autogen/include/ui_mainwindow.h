@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 6.11.0
+** Created by: Qt User Interface Compiler version 6.11.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -43,7 +43,7 @@ public:
     QLabel *label_14;
     QGroupBox *groupBox_3;
     QGroupBox *groupBox;
-    QLabel *breakLength;
+    QLabel *breakTime;
     QToolButton *decrementBreak;
     QToolButton *incrementBreak;
     QLabel *label_3;
@@ -169,7 +169,7 @@ public:
         label_15->setStyleSheet(QString::fromUtf8("QLabel {\n"
 "	background-color: transparent;\n"
 "}"));
-        label_15->setPixmap(QPixmap(QString::fromUtf8("../../Downloads/flower7.png")));
+        label_15->setPixmap(QPixmap(QString::fromUtf8(":/flowers/assets/flower7.png")));
         label_15->setScaledContents(true);
         label_10 = new QLabel(centralwidget);
         label_10->setObjectName("label_10");
@@ -220,15 +220,15 @@ public:
 "  justify-content: center;\n"
 "  align-items: center;  \n"
 "}"));
-        breakLength = new QLabel(groupBox);
-        breakLength->setObjectName("breakLength");
-        breakLength->setGeometry(QRect(0, 10, 141, 31));
-        breakLength->setStyleSheet(QString::fromUtf8("QLabel {\n"
+        breakTime = new QLabel(groupBox);
+        breakTime->setObjectName("breakTime");
+        breakTime->setGeometry(QRect(0, 10, 141, 31));
+        breakTime->setStyleSheet(QString::fromUtf8("QLabel {\n"
 "	color: black;\n"
 "	background-color: transparent;\n"
 "	font-size: 18px;\n"
 "}"));
-        breakLength->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        breakTime->setAlignment(Qt::AlignmentFlag::AlignCenter);
         decrementBreak = new QToolButton(groupBox);
         decrementBreak->setObjectName("decrementBreak");
         decrementBreak->setGeometry(QRect(0, 0, 41, 51));
@@ -333,7 +333,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Pomodoro", nullptr));
         container->setTitle(QString());
         startButton->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
         resetButton->setText(QCoreApplication::translate("MainWindow", "Reset", nullptr));
@@ -353,7 +353,7 @@ public:
         label_14->setText(QString());
         groupBox_3->setTitle(QString());
         groupBox->setTitle(QString());
-        breakLength->setText(QCoreApplication::translate("MainWindow", "5", nullptr));
+        breakTime->setText(QCoreApplication::translate("MainWindow", "5", nullptr));
         decrementBreak->setText(QCoreApplication::translate("MainWindow", "-", nullptr));
         incrementBreak->setText(QCoreApplication::translate("MainWindow", "+", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "Break Length", nullptr));

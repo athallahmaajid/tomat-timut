@@ -27,7 +27,7 @@ if(QT_DEPLOY_PREFIX STREQUAL "")
     set(QT_DEPLOY_PREFIX .)
 endif()
 if(NOT QT_DEPLOY_IGNORED_LIB_DIRS)
-    set(QT_DEPLOY_IGNORED_LIB_DIRS "/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1;/usr/lib;/lib")
+    set(QT_DEPLOY_IGNORED_LIB_DIRS "/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1;/usr/lib;/lib")
 endif()
 
 # These are internal implementation details. They may be removed at any time.
@@ -35,7 +35,7 @@ set(__QT_DEPLOY_SYSTEM_NAME "Linux")
 set(__QT_DEPLOY_SHARED_LIBRARY_SUFFIX ".so")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
 set(__QT_DEPLOY_TOOL "GRD")
-set(__QT_DEPLOY_IMPL_DIR "/home/athallah/Documents/pomodoro/build/Desktop_Qt_6_11_0-Debug/.qt")
+set(__QT_DEPLOY_IMPL_DIR "/home/athallah/Documents/tomat-timut/build/Desktop_Qt_6_11_0-Debug/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_LIBINFIX "")
@@ -60,7 +60,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "/home/athallah/Documents/pomodoro/build/Desktop_Qt_6_11_0-Debug/.qt/QtDeployTargets.cmake"
+    "/home/athallah/Documents/tomat-timut/build/Desktop_Qt_6_11_0-Debug/.qt/QtDeployTargets.cmake"
     "/home/athallah/Qt/6.11.0/gcc_64/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)

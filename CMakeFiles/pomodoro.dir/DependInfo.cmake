@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/athallah/Documents/pomodoro/mainwindow.cpp" "CMakeFiles/pomodoro.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/pomodoro.dir/mainwindow.cpp.o.d"
   "/home/athallah/Documents/pomodoro/pomodoro_autogen/EWIEGA46WW/qrc_assets.cpp" "CMakeFiles/pomodoro.dir/pomodoro_autogen/EWIEGA46WW/qrc_assets.cpp.o" "gcc" "CMakeFiles/pomodoro.dir/pomodoro_autogen/EWIEGA46WW/qrc_assets.cpp.o.d"
   "/home/athallah/Documents/pomodoro/pomodoro_autogen/mocs_compilation.cpp" "CMakeFiles/pomodoro.dir/pomodoro_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/pomodoro.dir/pomodoro_autogen/mocs_compilation.cpp.o.d"
+  "/home/athallah/Documents/pomodoro/statswindow.cpp" "CMakeFiles/pomodoro.dir/statswindow.cpp.o" "gcc" "CMakeFiles/pomodoro.dir/statswindow.cpp.o.d"
   "" "pomodoro" "gcc" "CMakeFiles/pomodoro.dir/link.d"
   )
 

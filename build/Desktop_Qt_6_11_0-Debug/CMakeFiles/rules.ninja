@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/athallah/Qt/Tools/CMake/bin/cmake --regenerate-during-build -S/home/athallah/Documents/pomodoro -B/home/athallah/Documents/pomodoro/build/Desktop_Qt_6_11_0-Debug
+  command = /home/athallah/Qt/Tools/CMake/bin/cmake --regenerate-during-build -S/home/athallah/Documents/tomat-timut -B/home/athallah/Documents/tomat-timut/build/Desktop_Qt_6_11_0-Debug
   description = Re-running CMake...
   generator = 1
 

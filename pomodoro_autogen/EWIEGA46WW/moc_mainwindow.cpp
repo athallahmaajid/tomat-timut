@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'mainwindow.h'
 **
-** Created by: The Qt Meta Object Compiler version 69 (Qt 6.11.0)
+** Created by: The Qt Meta Object Compiler version 69 (Qt 6.11.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -18,7 +18,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'mainwindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 69
-#error "This file was generated using the moc from 6.11.0. It"
+#error "This file was generated using the moc from 6.11.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -42,7 +42,12 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "on_startButton_clicked",
         "",
         "on_resetButton_clicked",
-        "updateTimer"
+        "updateTimer",
+        "on_decrementBreak_clicked",
+        "on_incrementBreak_clicked",
+        "on_decrementFocus_clicked",
+        "on_incrementFocus_clicked",
+        "on_pushButton_3_clicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -52,6 +57,16 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'updateTimer'
         QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_decrementBreak_clicked'
+        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_incrementBreak_clicked'
+        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_decrementFocus_clicked'
+        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_incrementFocus_clicked'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton_3_clicked'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -78,6 +93,11 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 0: _t->on_startButton_clicked(); break;
         case 1: _t->on_resetButton_clicked(); break;
         case 2: _t->updateTimer(); break;
+        case 3: _t->on_decrementBreak_clicked(); break;
+        case 4: _t->on_incrementBreak_clicked(); break;
+        case 5: _t->on_decrementFocus_clicked(); break;
+        case 6: _t->on_incrementFocus_clicked(); break;
+        case 7: _t->on_pushButton_3_clicked(); break;
         default: ;
         }
     }
@@ -103,14 +123,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
+        _id -= 8;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
+        if (_id < 8)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 3;
+        _id -= 8;
     }
     return _id;
 }

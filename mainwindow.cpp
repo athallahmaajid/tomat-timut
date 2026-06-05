@@ -7,6 +7,7 @@
 #include <QJsonDocument>
 #include <QCoreApplication>
 #include <QDate>
+#include <QApplication>
 #include "statswindow.h"
 using namespace std;
 
@@ -24,6 +25,8 @@ MainWindow::MainWindow(QWidget *parent)
     breakTime = 5;
     statsFile = QCoreApplication::applicationDirPath() + "/stats.json";
 
+    setWindowTitle("Pomodoro");
+
     connect(timer, &QTimer::timeout, this, &MainWindow::updateTimer);
     updateUI();
 }
@@ -40,7 +43,7 @@ void MainWindow::on_startButton_clicked()
         ui->startButton->setText("Start");
     }
     else {
-        timer->start(100);
+        timer->start(1000);
         ui->startButton->setText("Pause");
         updateTimer();
     }
@@ -64,6 +67,7 @@ void MainWindow::updateTimer()
         updateUI();
     } else {
         timer->stop();
+        QApplication::beep();
         if (isFocus) {
             recordSession();
             timeLeft = breakTime * 60;
@@ -78,7 +82,7 @@ void MainWindow::updateTimer()
             timeLeft = focusTime * 60;
             isFocus = true;
         }
-        timer->start(100);
+        timer->start(1000);
     }
 }
 
@@ -92,6 +96,7 @@ void MainWindow::updateUI()
                              .arg(seconds, 2, 10, QChar('0'));
 
     ui->timer->setText(timeString);
+    ui->label_4->setText(isFocus ? "FOCUS" : "BREAK");
 }
 
 

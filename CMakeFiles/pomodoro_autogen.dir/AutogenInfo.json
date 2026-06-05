@@ -7,10 +7,10 @@
 	"CMAKE_LIST_FILES" : 
 	[
 		"/home/athallah/Documents/pomodoro/CMakeLists.txt",
-		"/home/athallah/Documents/pomodoro/CMakeFiles/4.3.1/CMakeSystem.cmake",
+		"/home/athallah/Documents/pomodoro/CMakeFiles/4.3.3/CMakeSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake",
-		"/home/athallah/Documents/pomodoro/CMakeFiles/4.3.1/CMakeCXXCompiler.cmake",
+		"/home/athallah/Documents/pomodoro/CMakeFiles/4.3.3/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -63,11 +63,13 @@
 		"/usr/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake",
+		"/usr/lib/cmake/Qt6/QtPublicSbomBuildToolHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomCycloneDXHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomDocumentNamespaceHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake",
+		"/usr/lib/cmake/Qt6/QtPublicSbomExternalReferenceHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake",
@@ -77,6 +79,7 @@
 		"/usr/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake",
+		"/usr/lib/cmake/Qt6/QtPublicSbomRelationshipHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
@@ -115,11 +118,13 @@
 		"/usr/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake",
+		"/usr/lib/cmake/Qt6/QtPublicSbomBuildToolHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomCycloneDXHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomDocumentNamespaceHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake",
+		"/usr/lib/cmake/Qt6/QtPublicSbomExternalReferenceHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake",
@@ -129,6 +134,7 @@
 		"/usr/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake",
+		"/usr/lib/cmake/Qt6/QtPublicSbomRelationshipHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
 		"/usr/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
@@ -597,6 +603,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"/home/athallah/Documents/pomodoro/statswindow.h",
+			"MU",
+			"EWIEGA46WW/moc_statswindow.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -618,12 +630,11 @@
 		"/usr/include/qt6/QtWidgets",
 		"/usr/include/qt6/QtGui",
 		"/usr/include",
-		"/usr/include/c++/15.2.1",
-		"/usr/include/c++/15.2.1/x86_64-pc-linux-gnu",
-		"/usr/include/c++/15.2.1/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include",
-		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include-fixed"
+		"/usr/include/c++/16.1.1",
+		"/usr/include/c++/16.1.1/x86_64-pc-linux-gnu",
+		"/usr/include/c++/16.1.1/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include",
+		"/usr/local/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -659,7 +670,8 @@
 	"SOURCES" : 
 	[
 		[ "/home/athallah/Documents/pomodoro/main.cpp", "MU", null ],
-		[ "/home/athallah/Documents/pomodoro/mainwindow.cpp", "MU", null ]
+		[ "/home/athallah/Documents/pomodoro/mainwindow.cpp", "MU", null ],
+		[ "/home/athallah/Documents/pomodoro/statswindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

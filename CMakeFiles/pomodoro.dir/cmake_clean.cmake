@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pomodoro.dir/pomodoro_autogen/EWIEGA46WW/qrc_assets.cpp.o.d"
   "CMakeFiles/pomodoro.dir/pomodoro_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/pomodoro.dir/pomodoro_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/pomodoro.dir/statswindow.cpp.o"
+  "CMakeFiles/pomodoro.dir/statswindow.cpp.o.d"
   "pomodoro"
   "pomodoro.pdb"
   "pomodoro_autogen/EWIEGA46WW/qrc_assets.cpp"

@@ -14,7 +14,7 @@
    <bool>false</bool>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Pomodoro</string>
   </property>
   <property name="styleSheet">
    <string notr="true">QWidget {
@@ -312,7 +312,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Downloads/flower7.png</pixmap>
+     <pixmap resource="assets.qrc">:/flowers/assets/flower7.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

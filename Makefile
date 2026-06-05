@@ -296,6 +296,30 @@ pomodoro_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro.dir/build.make CMakeFiles/pomodoro.dir/pomodoro_autogen/mocs_compilation.cpp.s
 .PHONY : pomodoro_autogen/mocs_compilation.cpp.s
 
+statswindow.o: statswindow.cpp.o
+.PHONY : statswindow.o
+
+# target to build an object file
+statswindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro.dir/build.make CMakeFiles/pomodoro.dir/statswindow.cpp.o
+.PHONY : statswindow.cpp.o
+
+statswindow.i: statswindow.cpp.i
+.PHONY : statswindow.i
+
+# target to preprocess a source file
+statswindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro.dir/build.make CMakeFiles/pomodoro.dir/statswindow.cpp.i
+.PHONY : statswindow.cpp.i
+
+statswindow.s: statswindow.cpp.s
+.PHONY : statswindow.s
+
+# target to generate assembly for a file
+statswindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pomodoro.dir/build.make CMakeFiles/pomodoro.dir/statswindow.cpp.s
+.PHONY : statswindow.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -323,6 +347,9 @@ help:
 	@echo "... pomodoro_autogen/mocs_compilation.o"
 	@echo "... pomodoro_autogen/mocs_compilation.i"
 	@echo "... pomodoro_autogen/mocs_compilation.s"
+	@echo "... statswindow.o"
+	@echo "... statswindow.i"
+	@echo "... statswindow.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/athallah/Documents/pomodoro
+# Install script for directory: /home/athallah/Documents/tomat-timut
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pomodoro"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/athallah/Documents/pomodoro/build/Desktop_Qt_6_11_0-Debug/pomodoro")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/athallah/Documents/tomat-timut/build/Desktop_Qt_6_11_0-Debug/pomodoro")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pomodoro" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pomodoro")
     file(RPATH_CHANGE
@@ -77,6 +77,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/athallah/Documents/pomodoro/build/Desktop_Qt_6_11_0-Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/athallah/Documents/tomat-timut/build/Desktop_Qt_6_11_0-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
